@@ -1,0 +1,610 @@
+2016-10-10T10:08:38.860375645 0.295845s notice: Recursively removing directory /home/pi/rethinkdb_data/tmp
+2016-10-10T10:08:38.877791762 0.313255s notice: Initializing directory /home/pi/rethinkdb_data
+2016-10-10T10:08:38.878075144 0.313529s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/pi/rethinkdb_data' did not already exist or is empty.)
+2016-10-10T10:08:38.878229934 0.313683s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-10T10:08:38.888742791 0.324205s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-10T10:08:38.888918883 0.324372s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-10T10:08:40.334669042 1.770129s info: Automatically using cache size of 100 MB
+2016-10-10T10:08:40.335030757 1.770484s warn: Cache size does not leave much memory for server and query overhead (available memory: 873 MB).
+2016-10-10T10:08:40.335039976 1.770493s warn: Cache size is very low and may impact performance.
+2016-10-10T10:08:40.336556730 1.772012s notice: Listening for intracluster connections on port 29015
+2016-10-10T10:08:40.340981787 1.776437s notice: Listening for client driver connections on port 28015
+2016-10-10T10:08:40.341465584 1.776921s notice: Listening for administrative HTTP connections on port 8080
+2016-10-10T10:08:40.341484073 1.776937s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1
+2016-10-10T10:08:40.341491886 1.776945s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1
+2016-10-10T10:08:40.341505792 1.776959s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1
+2016-10-10T10:08:40.341513188 1.776966s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-10-10T10:08:40.341525479 1.776978s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-10T10:08:43.665913117 5.101369s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-10-10T10:08:43.666437226 5.101893s notice: Shutting down client connections...
+2016-10-10T10:08:43.666637276 5.102091s notice: All client connections closed.
+2016-10-10T10:08:43.666653005 5.102107s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-10T10:08:43.668104031 5.103560s notice: Storage engine shut down.
+2016-10-10T12:41:07.922253213 0.312943s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-10T12:41:07.939747998 0.330423s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-10T12:41:07.940294400 0.330960s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-10T12:41:08.472640295 0.863316s info: Automatically using cache size of 100 MB
+2016-10-10T12:41:08.473227477 0.863893s warn: Cache size does not leave much memory for server and query overhead (available memory: 669 MB).
+2016-10-10T12:41:08.473249977 0.863914s warn: Cache size is very low and may impact performance.
+2016-10-10T12:41:08.482196040 0.872864s notice: Listening for intracluster connections on port 29015
+2016-10-10T12:41:08.525756313 0.916423s notice: Listening for client driver connections on port 28015
+2016-10-10T12:41:08.526798334 0.917465s notice: Listening for administrative HTTP connections on port 8080
+2016-10-10T12:41:08.526831824 0.917496s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1
+2016-10-10T12:41:08.526846042 0.917510s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1
+2016-10-10T12:41:08.526871615 0.917535s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1
+2016-10-10T12:41:08.526885625 0.917549s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-10-10T12:41:08.526913489 0.917577s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-10T12:42:22.193409769 74.584076s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-10-10T12:42:22.194013566 74.584679s notice: Shutting down client connections...
+2016-10-10T12:42:22.194129398 74.584793s notice: All client connections closed.
+2016-10-10T12:42:22.194137367 74.584800s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-10T12:42:22.271491024 74.662159s notice: Storage engine shut down.
+2016-10-10T12:42:28.650505394 0.677275s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-10T12:42:28.664136361 0.690872s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-10T12:42:28.664687450 0.691412s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-10T12:42:30.131237896 2.157975s info: Automatically using cache size of 100 MB
+2016-10-10T12:42:30.132278876 2.159005s warn: Cache size does not leave much memory for server and query overhead (available memory: 627 MB).
+2016-10-10T12:42:30.132304136 2.159027s warn: Cache size is very low and may impact performance.
+2016-10-10T12:42:30.187161439 2.213887s notice: Listening for intracluster connections on port 29015
+2016-10-10T12:42:30.195563861 2.222289s notice: Listening for client driver connections on port 28015
+2016-10-10T12:42:30.196761090 2.223487s notice: Listening for administrative HTTP connections on port 8080
+2016-10-10T12:42:30.251043138 2.277769s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.147
+2016-10-10T12:42:30.304362591 2.331088s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.147
+2016-10-10T12:42:30.359935564 2.386661s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.147
+2016-10-10T12:42:30.359973324 2.386695s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-10T13:19:32.661715685 2224.688440s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-10-10T13:19:32.662611094 2224.689336s notice: Shutting down client connections...
+2016-10-10T13:19:32.670711393 2224.697440s notice: All client connections closed.
+2016-10-10T13:19:32.671064150 2224.697789s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-10T13:19:32.672646221 2224.699372s notice: Storage engine shut down.
+2016-10-16T07:08:40.038453582 0.269130s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-16T07:08:40.062065071 0.292735s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-16T07:08:40.218814225 0.449477s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-16T07:08:40.368698706 0.599367s info: Automatically using cache size of 100 MB
+2016-10-16T07:08:40.369012453 0.599674s warn: Cache size does not leave much memory for server and query overhead (available memory: 862 MB).
+2016-10-16T07:08:40.369022244 0.599682s warn: Cache size is very low and may impact performance.
+2016-10-16T07:08:40.428070056 0.658732s notice: Listening for intracluster connections on port 29015
+2016-10-16T07:08:40.481246831 0.711909s notice: Listening for client driver connections on port 28015
+2016-10-16T07:08:40.481637765 0.712299s notice: Listening for administrative HTTP connections on port 8080
+2016-10-16T07:08:40.532543103 0.763206s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.15, 192.168.100.147
+2016-10-16T07:08:40.582884124 0.813549s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.15, 192.168.100.147
+2016-10-16T07:08:40.634389301 0.865053s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.15, 192.168.100.147
+2016-10-16T07:08:40.634422634 0.865084s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-16T07:09:18.881229149 39.111893s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-10-16T07:09:18.881652061 39.112315s notice: Shutting down client connections...
+2016-10-16T07:09:18.881790654 39.112452s notice: All client connections closed.
+2016-10-16T07:09:18.881805810 39.112467s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-16T07:09:18.912187234 39.142851s notice: Storage engine shut down.
+2016-10-16T07:09:21.941950240 0.236813s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-16T07:09:21.969803719 0.264652s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-16T07:09:21.986575379 0.281414s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-16T07:09:22.067540894 0.362387s info: Automatically using cache size of 100 MB
+2016-10-16T07:09:22.068063858 0.362901s warn: Cache size does not leave much memory for server and query overhead (available memory: 862 MB).
+2016-10-16T07:09:22.068081566 0.362919s warn: Cache size is very low and may impact performance.
+2016-10-16T07:09:22.122258019 0.417097s notice: Listening for intracluster connections on port 29015
+2016-10-16T07:09:22.129861695 0.424701s notice: Listening for client driver connections on port 28015
+2016-10-16T07:09:22.130620750 0.425459s notice: Listening for administrative HTTP connections on port 8080
+2016-10-16T07:09:22.180204122 0.475043s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.15, 192.168.100.147
+2016-10-16T07:09:22.229998899 0.524839s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.15, 192.168.100.147
+2016-10-16T07:09:22.280890592 0.575729s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.15, 192.168.100.147
+2016-10-16T07:09:22.280910279 0.575746s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-16T07:10:27.729443139 66.024282s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Added replica on this server.
+2016-10-16T07:10:27.729641835 66.024479s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 1.
+2016-10-16T07:10:28.190751209 66.485589s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 1. Latest log index is 0.
+2016-10-16T07:10:36.428267932 74.723106s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 1.
+2016-10-16T07:10:36.429463805 74.724302s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Added replica on this server.
+2016-10-16T07:10:37.796959840 76.091798s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 1. Latest log index is 0.
+2016-10-16T07:15:03.836322677 342.131163s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2016-10-16T07:15:03.836609862 342.131448s notice: Shutting down client connections...
+2016-10-16T07:15:03.836982254 342.131821s notice: All client connections closed.
+2016-10-16T07:15:03.837001577 342.131838s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-16T07:15:03.878147133 342.172987s notice: Storage engine shut down.
+2016-10-16T07:15:04.631287754 342.926128s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2016-10-16T07:34:57.950815907 0.287408s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-16T07:34:57.979646196 0.316225s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-16T07:34:58.138709810 0.475279s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-16T07:34:58.313135905 0.649713s info: Automatically using cache size of 100 MB
+2016-10-16T07:34:58.313739702 0.650308s warn: Cache size does not leave much memory for server and query overhead (available memory: 862 MB).
+2016-10-16T07:34:58.313759858 0.650327s warn: Cache size is very low and may impact performance.
+2016-10-16T07:34:58.373850520 0.710421s notice: Listening for intracluster connections on port 29015
+2016-10-16T07:34:58.598607355 0.935176s notice: Listening for client driver connections on port 28015
+2016-10-16T07:34:58.599355891 0.935925s notice: Listening for administrative HTTP connections on port 8080
+2016-10-16T07:34:58.649465435 0.986037s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-16T07:34:58.699963518 1.036532s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-16T07:34:58.749639055 1.086209s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-16T07:34:58.749659680 1.086226s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-16T07:34:59.581885111 1.918453s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 2.
+2016-10-16T07:34:59.697247984 2.033816s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 2.
+2016-10-16T07:35:00.013071690 2.349640s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 2. Latest log index is 3.
+2016-10-16T07:35:00.013372885 2.349940s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 2. Latest log index is 3.
+2016-10-16T13:55:35.099935636 22837.436505s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-10-16T15:11:02.669418693 27365.005986s notice: Someone asked for the nonwhitelisted file "/cgi/common.cgi".  If this should be accessible, add it to the static web assets.
+2016-10-16T15:11:03.186296407 27365.522864s notice: Someone asked for the nonwhitelisted file "/stssys.htm".  If this should be accessible, add it to the static web assets.
+2016-10-16T15:11:04.876217766 27367.212787s notice: Someone asked for the nonwhitelisted file "/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js".  If this should be accessible, add it to the static web assets.
+2016-10-16T15:58:50.146027972 30232.482597s notice: Someone asked for the nonwhitelisted file "//jmx-console/HtmlAdaptor".  If this should be accessible, add it to the static web assets.
+2016-10-17T11:08:39.175610545 0.281940s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-17T11:08:39.206589227 0.312905s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-17T11:08:39.340204841 0.446512s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-17T11:08:39.660005831 0.766321s info: Automatically using cache size of 100 MB
+2016-10-17T11:08:39.660585932 0.766892s warn: Cache size does not leave much memory for server and query overhead (available memory: 855 MB).
+2016-10-17T11:08:39.660608119 0.766912s warn: Cache size is very low and may impact performance.
+2016-10-17T11:08:39.680430041 0.786737s notice: Listening for intracluster connections on port 29015
+2016-10-17T11:08:39.958158659 1.064467s notice: Listening for client driver connections on port 28015
+2016-10-17T11:08:39.959419329 1.065727s notice: Listening for administrative HTTP connections on port 8080
+2016-10-17T11:08:39.959440318 1.065744s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1
+2016-10-17T11:08:39.959454172 1.065758s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1
+2016-10-17T11:08:39.959468391 1.065772s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1
+2016-10-17T11:08:39.959533495 1.065838s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-10-17T11:08:39.959551516 1.065855s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-17T11:08:41.459362314 2.565668s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 3.
+2016-10-17T11:08:41.491084273 2.597391s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 3. Latest log index is 6.
+2016-10-17T11:08:41.518394226 2.624700s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 3.
+2016-10-17T11:08:41.560446701 2.666754s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 3. Latest log index is 6.
+2016-10-17T11:11:02.149924365 143.256234s notice: Server got SIGTERM from pid 1618, uid 0; shutting down...
+2016-10-17T11:11:02.150200249 143.256505s notice: Shutting down client connections...
+2016-10-17T11:11:02.159825813 143.266135s notice: All client connections closed.
+2016-10-17T11:11:02.159848730 143.266152s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-17T11:11:02.180408497 143.286717s notice: Storage engine shut down.
+2016-10-17T11:18:05.193820767 0.228799s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-17T11:18:05.215896791 0.250867s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-17T11:18:05.232520255 0.267484s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-17T11:18:05.314580286 0.349553s info: Automatically using cache size of 100 MB
+2016-10-17T11:18:05.315105282 0.350069s warn: Cache size does not leave much memory for server and query overhead (available memory: 709 MB).
+2016-10-17T11:18:05.315125543 0.350088s warn: Cache size is very low and may impact performance.
+2016-10-17T11:18:05.368022679 0.402989s notice: Listening for intracluster connections on port 29015
+2016-10-17T11:18:05.522887295 0.557854s notice: Listening for client driver connections on port 28015
+2016-10-17T11:18:05.523807965 0.558772s notice: Listening for administrative HTTP connections on port 8080
+2016-10-17T11:18:05.575468756 0.610435s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-17T11:18:05.626218930 0.661185s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-17T11:18:05.676460410 0.711425s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-17T11:18:05.676494941 0.711457s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-17T11:18:06.935337646 1.970302s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 4.
+2016-10-17T11:18:06.956724822 1.991689s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 4. Latest log index is 9.
+2016-10-17T11:18:07.366405297 2.401370s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 4.
+2016-10-17T11:18:07.387545443 2.422509s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 4. Latest log index is 9.
+2016-10-17T16:30:17.680839639 0.280920s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-17T16:30:17.712434690 0.312501s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-17T16:30:17.878679612 0.478736s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-17T16:30:18.044792556 0.644858s info: Automatically using cache size of 100 MB
+2016-10-17T16:30:18.045341406 0.645396s warn: Cache size does not leave much memory for server and query overhead (available memory: 856 MB).
+2016-10-17T16:30:18.045360677 0.645415s warn: Cache size is very low and may impact performance.
+2016-10-17T16:30:18.106598450 0.706655s notice: Listening for intracluster connections on port 29015
+2016-10-17T16:30:18.427568442 1.027626s notice: Listening for client driver connections on port 28015
+2016-10-17T16:30:18.429246553 1.029305s notice: Listening for administrative HTTP connections on port 8080
+2016-10-17T16:30:18.479757801 1.079817s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-17T16:30:18.529648897 1.129706s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-17T16:30:18.579599472 1.179655s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-17T16:30:18.579619003 1.179673s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-17T16:30:19.543865219 2.143921s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 5.
+2016-10-17T16:30:19.573344245 2.173400s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 5. Latest log index is 12.
+2016-10-17T16:30:20.162170973 2.762226s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 5.
+2016-10-17T16:30:20.186835664 2.786891s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 5. Latest log index is 12.
+2016-10-18T01:26:43.286804427 32185.886863s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2016-10-18T01:26:43.287414006 32185.887473s notice: Shutting down client connections...
+2016-10-18T01:26:43.289236595 32185.889293s notice: All client connections closed.
+2016-10-18T01:26:43.289251803 32185.889305s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-18T01:26:43.325553546 32185.925614s notice: Storage engine shut down.
+2016-10-18T01:26:46.432572251 32189.032632s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2016-10-18T01:28:37.749196853 0.281644s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-18T01:28:37.780576088 0.313010s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-18T01:28:37.946701658 0.479126s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-18T01:28:38.109997568 0.642431s info: Automatically using cache size of 100 MB
+2016-10-18T01:28:38.110646468 0.643069s warn: Cache size does not leave much memory for server and query overhead (available memory: 862 MB).
+2016-10-18T01:28:38.110668291 0.643090s warn: Cache size is very low and may impact performance.
+2016-10-18T01:28:38.128486821 0.660911s notice: Listening for intracluster connections on port 29015
+2016-10-18T01:28:38.439462693 0.971886s notice: Listening for client driver connections on port 28015
+2016-10-18T01:28:38.440061385 0.972484s notice: Listening for administrative HTTP connections on port 8080
+2016-10-18T01:28:38.440072844 0.972493s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1
+2016-10-18T01:28:38.440080396 0.972501s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1
+2016-10-18T01:28:38.440087583 0.972508s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1
+2016-10-18T01:28:38.440094510 0.972515s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-10-18T01:28:38.440121176 0.972542s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-18T01:28:39.372386924 1.904810s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 6.
+2016-10-18T01:28:39.886652913 2.419078s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 6. Latest log index is 15.
+2016-10-18T01:28:39.988085707 2.520509s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 6.
+2016-10-18T01:28:40.013227137 2.545652s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 6. Latest log index is 15.
+2016-10-18T01:29:06.440647162 28.973072s notice: Server got SIGTERM from pid 912, uid 1000; shutting down...
+2016-10-18T01:29:06.440928826 28.973351s notice: Shutting down client connections...
+2016-10-18T01:29:06.441502935 28.973925s notice: All client connections closed.
+2016-10-18T01:29:06.441518977 28.973940s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-18T01:29:06.470278706 29.002706s notice: Storage engine shut down.
+2016-10-18T01:30:42.832942860 1.165960s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-18T01:30:43.127484773 1.460493s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-18T01:30:43.296538232 1.629542s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-18T01:30:43.381908417 1.714915s info: Automatically using cache size of 100 MB
+2016-10-18T01:30:43.382228258 1.715232s warn: Cache size does not leave much memory for server and query overhead (available memory: 848 MB).
+2016-10-18T01:30:43.382240393 1.715240s warn: Cache size is very low and may impact performance.
+2016-10-18T01:30:43.433358714 1.766362s notice: Listening for intracluster connections on port 29015
+2016-10-18T01:30:43.529251769 1.862256s notice: Listening for client driver connections on port 28015
+2016-10-18T01:30:43.529749316 1.862753s notice: Listening for administrative HTTP connections on port 8080
+2016-10-18T01:30:43.580179101 1.913184s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-18T01:30:43.630720500 1.963724s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-18T01:30:43.681360232 2.014362s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-18T01:30:43.681377836 2.014379s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-18T01:30:43.681558511 2.014560s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2016-10-18T01:30:44.937965945 3.270968s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2016-10-18T01:30:44.939263901 3.272266s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 7.
+2016-10-18T01:30:44.939436608 3.272438s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 7.
+2016-10-18T01:30:44.939980509 3.272982s notice: Shutting down client connections...
+2016-10-18T01:30:44.940145351 3.273147s notice: All client connections closed.
+2016-10-18T01:30:44.940161080 3.273162s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-18T01:30:44.996499195 3.329505s notice: Storage engine shut down.
+2016-10-18T01:30:47.808959885 0.232046s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-18T01:30:47.832122271 0.255198s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-18T01:30:47.848689563 0.271759s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-18T01:30:47.917528498 0.340601s info: Automatically using cache size of 100 MB
+2016-10-18T01:30:47.917842245 0.340910s warn: Cache size does not leave much memory for server and query overhead (available memory: 847 MB).
+2016-10-18T01:30:47.917851672 0.340918s warn: Cache size is very low and may impact performance.
+2016-10-18T01:30:47.969219729 0.392289s notice: Listening for intracluster connections on port 29015
+2016-10-18T01:30:48.148432520 0.571503s notice: Listening for client driver connections on port 28015
+2016-10-18T01:30:48.149436365 0.572506s notice: Listening for administrative HTTP connections on port 8080
+2016-10-18T01:30:48.199541153 0.622612s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-18T01:30:48.249498599 0.672568s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-18T01:30:48.299756667 0.722826s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-18T01:30:48.299791250 0.722858s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-18T01:30:49.129271508 1.552341s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 8.
+2016-10-18T01:30:49.152387957 1.575457s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 8. Latest log index is 18.
+2016-10-18T01:30:50.032061492 2.455130s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 8.
+2016-10-18T01:30:50.054973724 2.478043s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 8. Latest log index is 18.
+2016-10-18T23:20:13.684957001 78566.108027s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-10-19T16:38:36.816361299 140869.239432s notice: Server got SIGTERM from pid 1, uid 0; shutting down...
+2016-10-19T16:38:36.816774264 140869.239844s notice: Shutting down client connections...
+2016-10-19T16:38:36.821271467 140869.244343s notice: All client connections closed.
+2016-10-19T16:38:36.821282456 140869.244349s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-19T16:38:36.881757640 140869.304830s notice: Storage engine shut down.
+2016-10-19T16:38:37.658424277 140870.081497s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2016-10-19T16:40:40.909316747 0.286096s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-19T16:40:40.941724762 0.318490s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-19T16:40:41.105557739 0.482314s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-19T16:40:41.287875199 0.664639s info: Automatically using cache size of 100 MB
+2016-10-19T16:40:41.288395976 0.665149s warn: Cache size does not leave much memory for server and query overhead (available memory: 861 MB).
+2016-10-19T16:40:41.288416289 0.665169s warn: Cache size is very low and may impact performance.
+2016-10-19T16:40:41.364633892 0.741392s notice: Listening for intracluster connections on port 29015
+2016-10-19T16:40:41.911380130 1.288137s notice: Listening for client driver connections on port 28015
+2016-10-19T16:40:41.912450017 1.289206s notice: Listening for administrative HTTP connections on port 8080
+2016-10-19T16:40:41.964189227 1.340946s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-19T16:40:42.022395312 1.399150s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-19T16:40:42.073235050 1.449988s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-19T16:40:42.073252915 1.450005s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-19T16:40:42.792589922 2.169345s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 9.
+2016-10-19T16:40:43.386034839 2.762790s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 9. Latest log index is 21.
+2016-10-19T16:40:43.666576910 3.043331s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 9.
+2016-10-19T16:40:45.073619987 4.450375s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 9. Latest log index is 21.
+2016-10-19T23:13:45.997210113 0.286558s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-19T23:13:46.028890899 0.318225s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-19T23:13:46.160181289 0.449507s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-19T23:13:46.329147772 0.618482s info: Automatically using cache size of 100 MB
+2016-10-19T23:13:46.329738547 0.619062s warn: Cache size does not leave much memory for server and query overhead (available memory: 859 MB).
+2016-10-19T23:13:46.329760526 0.619083s warn: Cache size is very low and may impact performance.
+2016-10-19T23:13:46.391146284 0.680472s notice: Listening for intracluster connections on port 29015
+2016-10-19T23:13:46.911625704 1.200952s notice: Listening for client driver connections on port 28015
+2016-10-19T23:13:46.912655017 1.201981s notice: Listening for administrative HTTP connections on port 8080
+2016-10-19T23:13:46.967274173 1.256598s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-19T23:13:47.019822412 1.309147s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-19T23:13:47.069588647 1.358913s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-19T23:13:47.069607710 1.358930s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-19T23:13:48.280914060 2.570238s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 10.
+2016-10-19T23:13:48.355014642 2.644339s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 10. Latest log index is 24.
+2016-10-19T23:13:48.776915697 3.066240s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 10.
+2016-10-19T23:13:49.122149685 3.411474s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 10. Latest log index is 24.
+2016-10-20T16:54:58.212691306 63672.502015s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-20T20:10:40.582990198 75414.872314s notice: Someone asked for the nonwhitelisted file "/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js".  If this should be accessible, add it to the static web assets.
+2016-10-21T01:03:57.208560171 0.279837s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-21T01:03:57.649547197 0.720809s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-21T01:03:57.668140882 0.739395s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-21T01:03:57.836938615 0.908201s info: Automatically using cache size of 100 MB
+2016-10-21T01:03:57.837448506 0.908701s warn: Cache size does not leave much memory for server and query overhead (available memory: 853 MB).
+2016-10-21T01:03:57.837466840 0.908717s warn: Cache size is very low and may impact performance.
+2016-10-21T01:03:57.897185046 0.968439s notice: Listening for intracluster connections on port 29015
+2016-10-21T01:03:58.355936024 1.427189s notice: Listening for client driver connections on port 28015
+2016-10-21T01:03:58.356508676 1.427761s notice: Listening for administrative HTTP connections on port 8080
+2016-10-21T01:03:58.406184109 1.477437s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-21T01:03:58.453938361 1.525192s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-21T01:03:58.501809592 1.573062s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-21T01:03:58.501827769 1.573078s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-21T01:03:59.279276262 2.350529s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 11.
+2016-10-21T01:03:59.789373127 2.860629s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 11. Latest log index is 27.
+2016-10-21T01:04:00.035223232 3.106476s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 11.
+2016-10-21T01:04:00.082296762 3.153550s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 11. Latest log index is 27.
+2016-10-21T03:13:28.905136783 7771.976388s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-10-23T04:54:00.270493831 161403.341747s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-10-23T07:54:33.932675034 172237.003928s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T16:53:32.599648212 204575.670902s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T16:53:33.051833791 204576.123087s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T16:53:33.501823294 204576.573076s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T16:53:34.081514238 204577.152768s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T16:53:34.650853339 204577.722106s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T16:53:35.081045452 204578.152299s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T16:53:35.611144457 204578.682399s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T16:53:36.070990494 204579.142245s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T16:53:36.561324459 204579.632578s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T16:53:37.117410908 204580.188664s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-23T20:04:48.069643456 216051.140897s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-10-24T14:36:36.590880654 282759.662134s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-24T23:03:39.339722521 313182.410974s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-10-25T14:53:46.941786894 370190.013041s notice: Someone asked for the nonwhitelisted file "/cgi/common.cgi".  If this should be accessible, add it to the static web assets.
+2016-10-25T14:53:47.437538023 370190.508791s notice: Someone asked for the nonwhitelisted file "/stssys.htm".  If this should be accessible, add it to the static web assets.
+2016-10-25T14:53:49.028379383 370192.099633s notice: Someone asked for the nonwhitelisted file "/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js".  If this should be accessible, add it to the static web assets.
+2016-10-26T08:41:17.793900881 434240.865153s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-10-27T18:57:07.516694892 557590.587948s notice: Someone asked for the nonwhitelisted file "//console/j_security_check".  If this should be accessible, add it to the static web assets.
+2016-10-28T05:53:53.403138710 596996.474392s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-10-28T14:42:20.414059928 628703.485312s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-10-28T18:53:36.307060117 643779.378313s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-10-29T15:16:57.204206370 0.285054s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-10-29T15:16:57.231336542 0.312176s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-10-29T15:16:57.400306320 0.481142s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-10-29T15:16:57.706844701 0.787684s info: Automatically using cache size of 100 MB
+2016-10-29T15:16:57.707154594 0.787986s warn: Cache size does not leave much memory for server and query overhead (available memory: 845 MB).
+2016-10-29T15:16:57.707165531 0.787996s warn: Cache size is very low and may impact performance.
+2016-10-29T15:16:57.766029011 0.846861s notice: Listening for intracluster connections on port 29015
+2016-10-29T15:16:58.075437470 1.156271s notice: Listening for client driver connections on port 28015
+2016-10-29T15:16:58.075950486 1.156783s notice: Listening for administrative HTTP connections on port 8080
+2016-10-29T15:16:58.124118229 1.204951s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-29T15:16:58.170492550 1.251325s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-29T15:16:58.218003371 1.298836s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-10-29T15:16:58.218014621 1.298845s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-10-29T15:16:59.578369435 2.659201s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 12.
+2016-10-29T15:16:59.608183802 2.689017s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 12. Latest log index is 30.
+2016-10-29T15:16:59.864314669 2.945146s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 12.
+2016-10-29T15:16:59.893920287 2.974754s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 12. Latest log index is 30.
+2016-10-29T17:35:07.365229575 8290.446062s notice: Someone asked for the nonwhitelisted file "/cgi/common.cgi".  If this should be accessible, add it to the static web assets.
+2016-10-29T17:35:07.846315946 8290.927148s notice: Someone asked for the nonwhitelisted file "/stssys.htm".  If this should be accessible, add it to the static web assets.
+2016-10-29T17:35:09.396239270 8292.477072s notice: Someone asked for the nonwhitelisted file "/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js".  If this should be accessible, add it to the static web assets.
+2016-10-29T20:46:05.254190302 19748.335024s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-10-30T12:51:18.571476174 77661.652309s notice: Someone asked for the nonwhitelisted file "/zecmd/zecmd.jsp".  If this should be accessible, add it to the static web assets.
+2016-10-30T21:25:46.344811092 108529.425645s notice: Someone asked for the nonwhitelisted file "//jmx-console/HtmlAdaptor".  If this should be accessible, add it to the static web assets.
+2016-10-31T06:48:11.819412249 142274.900244s notice: Someone asked for the nonwhitelisted file "/index.php".  If this should be accessible, add it to the static web assets.
+2016-10-31T07:07:14.721493269 143417.802326s notice: Someone asked for the nonwhitelisted file "/index.php".  If this should be accessible, add it to the static web assets.
+2016-10-31T07:33:14.208735677 144977.289569s notice: Someone asked for the nonwhitelisted file "/index.php".  If this should be accessible, add it to the static web assets.
+2016-10-31T07:48:41.019105698 145904.099941s notice: Someone asked for the nonwhitelisted file "/index.php".  If this should be accessible, add it to the static web assets.
+2016-10-31T09:00:04.578427210 150187.659259s notice: Someone asked for the nonwhitelisted file "/index.php".  If this should be accessible, add it to the static web assets.
+2016-10-31T12:58:53.994079410 164517.074913s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T17:42:59.589065283 0.210359s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-11-01T17:42:59.617387481 0.238671s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-11-01T17:42:59.635397250 0.256674s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-11-01T17:42:59.725289016 0.346572s info: Automatically using cache size of 100 MB
+2016-11-01T17:42:59.725601826 0.346878s warn: Cache size does not leave much memory for server and query overhead (available memory: 813 MB).
+2016-11-01T17:42:59.725612451 0.346887s warn: Cache size is very low and may impact performance.
+2016-11-01T17:42:59.775257572 0.396535s notice: Listening for intracluster connections on port 29015
+2016-11-01T17:42:59.997287162 0.618565s notice: Listening for client driver connections on port 28015
+2016-11-01T17:42:59.998015386 0.619294s notice: Listening for administrative HTTP connections on port 8080
+2016-11-01T17:43:00.045746823 0.667024s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-11-01T17:43:00.095554703 0.716832s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-11-01T17:43:00.143118380 0.764395s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-11-01T17:43:00.143128484 0.764403s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-11-01T17:43:01.094138070 1.715415s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 13.
+2016-11-01T17:43:01.406240414 2.027517s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 13. Latest log index is 33.
+2016-11-01T17:43:01.816656340 2.437933s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 13.
+2016-11-01T17:43:03.031225902 3.652503s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 13. Latest log index is 33.
+2016-11-01T21:10:21.151379280 12441.772658s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T21:10:21.653766693 12442.275047s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T21:10:22.443362337 12443.064641s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T21:10:23.234731092 12443.856010s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T21:10:23.718536834 12444.339816s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T21:10:24.585354191 12445.206633s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T21:10:25.440460238 12446.061739s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T21:10:25.907556168 12446.528835s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T21:10:26.386913352 12447.008193s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T21:10:27.649846228 12448.271125s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-01T21:20:45.127545705 0.276081s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-11-01T21:20:45.161246461 0.309766s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-11-01T21:20:45.322565042 0.471077s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-11-01T21:20:45.500866499 0.649386s info: Automatically using cache size of 100 MB
+2016-11-01T21:20:45.501454775 0.649964s warn: Cache size does not leave much memory for server and query overhead (available memory: 859 MB).
+2016-11-01T21:20:45.501477119 0.649986s warn: Cache size is very low and may impact performance.
+2016-11-01T21:20:45.520004201 0.668515s notice: Listening for intracluster connections on port 29015
+2016-11-01T21:20:45.847999077 0.996509s notice: Listening for client driver connections on port 28015
+2016-11-01T21:20:45.848921726 0.997431s notice: Listening for administrative HTTP connections on port 8080
+2016-11-01T21:20:45.848933861 0.997440s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1
+2016-11-01T21:20:45.848941622 0.997448s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1
+2016-11-01T21:20:45.848949382 0.997456s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1
+2016-11-01T21:20:45.848983288 0.997490s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-11-01T21:20:45.848991413 0.997498s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-11-01T21:20:46.750088098 1.898597s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 14.
+2016-11-01T21:20:46.976862165 2.125371s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 14.
+2016-11-01T21:20:47.102331831 2.250842s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 14. Latest log index is 36.
+2016-11-01T21:20:47.110002443 2.258513s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 14. Latest log index is 36.
+2016-11-01T21:22:11.123542858 86.272055s notice: Server got SIGTERM from pid 1019, uid 1000; shutting down...
+2016-11-01T21:22:11.123904782 86.272413s notice: Shutting down client connections...
+2016-11-01T21:22:11.131490291 86.280001s notice: All client connections closed.
+2016-11-01T21:22:11.131501749 86.280009s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-11-01T21:22:11.149202953 86.297717s notice: Storage engine shut down.
+2016-11-01T21:22:11.218445022 86.366958s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2016-11-01T21:22:24.753830499 0.214796s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-11-01T21:22:24.777020510 0.237977s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-11-01T21:22:24.795574207 0.256524s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-11-01T21:22:24.867938229 0.328892s info: Automatically using cache size of 100 MB
+2016-11-01T21:22:24.868269424 0.329218s warn: Cache size does not leave much memory for server and query overhead (available memory: 713 MB).
+2016-11-01T21:22:24.868278956 0.329226s warn: Cache size is very low and may impact performance.
+2016-11-01T21:22:24.917344008 0.378294s notice: Listening for intracluster connections on port 29015
+2016-11-01T21:22:25.069478604 0.530430s notice: Listening for client driver connections on port 28015
+2016-11-01T21:22:25.070543022 0.531494s notice: Listening for administrative HTTP connections on port 8080
+2016-11-01T21:22:25.118463345 0.579414s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-11-01T21:22:25.166742103 0.627691s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-11-01T21:22:25.214193003 0.675141s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-11-01T21:22:25.214213940 0.675161s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-11-01T21:22:26.165945769 1.626894s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 15.
+2016-11-01T21:22:26.186831217 1.647780s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 15. Latest log index is 39.
+2016-11-01T21:22:26.810741865 2.271691s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 15.
+2016-11-01T21:22:26.848688992 2.309638s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 15. Latest log index is 39.
+2016-11-01T22:04:41.420427325 2536.881378s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-02T19:25:13.654497565 79369.115447s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-03T01:36:57.029385720 101672.490336s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-03T02:55:04.326696240 106359.787647s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-03T02:55:04.426586253 106359.887538s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-03T04:13:19.388854134 111054.849804s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-03T07:04:29.520940585 121324.981891s notice: Someone asked for the nonwhitelisted file "/web-console/".  If this should be accessible, add it to the static web assets.
+2016-11-03T10:10:01.693568737 132457.154519s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-03T14:18:00.731815212 147336.192766s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-03T15:28:29.748110906 151565.209062s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-03T15:36:01.141999854 152016.602951s notice: Someone asked for the nonwhitelisted file "/phpmyadmin/index.php".  If this should be accessible, add it to the static web assets.
+2016-11-03T15:40:18.052497104 152273.513447s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-03T15:59:48.222026716 153443.682977s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-03T19:27:32.414007448 165907.874959s notice: Someone asked for the nonwhitelisted file "/zecmd/zecmd.jsp".  If this should be accessible, add it to the static web assets.
+2016-11-03T19:27:41.928915120 165917.389867s notice: Someone asked for the nonwhitelisted file "/zecmd/zecmd.jsp".  If this should be accessible, add it to the static web assets.
+2016-11-03T19:28:10.094825395 165945.555776s notice: Someone asked for the nonwhitelisted file "/zecmd/zecmd.jsp".  If this should be accessible, add it to the static web assets.
+2016-11-03T19:28:29.602384852 165965.063334s notice: Someone asked for the nonwhitelisted file "/zecmd/zecmd.jsp".  If this should be accessible, add it to the static web assets.
+2016-11-03T20:30:53.954508987 169709.415459s notice: Someone asked for the nonwhitelisted file "/zecmd/zecmd.jsp".  If this should be accessible, add it to the static web assets.
+2016-11-04T00:11:35.101547726 182950.562498s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:21.768792888 259917.229742s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:22.358589981 259917.819541s notice: Someone asked for the nonwhitelisted file "/phpmyadmin/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:25.892295224 259921.353244s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:26.390771693 259921.851722s notice: Someone asked for the nonwhitelisted file "/PMA/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:29.843875307 259925.304826s notice: Someone asked for the nonwhitelisted file "/pma/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:30.344725771 259925.805677s notice: Someone asked for the nonwhitelisted file "/dbadmin/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:30.845010823 259926.305961s notice: Someone asked for the nonwhitelisted file "/mysql/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:31.344004632 259926.804955s notice: Someone asked for the nonwhitelisted file "/myadmin/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:31.845518374 259927.306469s notice: Someone asked for the nonwhitelisted file "/openserver/phpmyadmin/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:32.340177519 259927.801128s notice: Someone asked for the nonwhitelisted file "/phpmyadmin2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:32.839022422 259928.299973s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:33.339116485 259928.800068s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:33.850517201 259929.311467s notice: Someone asked for the nonwhitelisted file "/php-my-admin/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:34.350151630 259929.811103s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.2.3/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:34.849504394 259930.310455s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.2.6/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:35.346538421 259930.807490s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:35.844079008 259931.305030s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.4/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:36.340783610 259931.801735s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.5-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:36.839009192 259932.299960s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.5-rc2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:37.330701062 259932.791651s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.5/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:37.828023889 259933.288976s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.5-pl1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:38.325906973 259933.786859s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.6-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:38.823768182 259934.284719s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.6-rc2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:39.317372280 259934.778324s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.6/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:39.812741524 259935.273692s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.7/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:40.310974137 259935.771925s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.5.7-pl1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:40.813835994 259936.274786s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0-alpha/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:41.312643082 259936.773594s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0-alpha2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:41.809231850 259937.270182s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0-beta1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:42.308839402 259937.769790s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0-beta2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:42.810211006 259938.271162s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:43.312477658 259938.773429s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0-rc2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:43.807056228 259939.268008s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0-rc3/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:44.309303973 259939.770255s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:44.802717133 259940.263668s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0-pl1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:45.299960479 259940.760912s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0-pl2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:45.802158276 259941.263110s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.0-pl3/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:46.307658919 259941.768610s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.1-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:46.808379432 259942.269330s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.1-rc2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:47.309675463 259942.770627s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:47.822998873 259943.283949s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.1-pl1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:48.323527408 259943.784479s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.1-pl2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:48.844209316 259944.305159s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.1-pl3/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:49.335534883 259944.796486s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.2-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:49.830835791 259945.291786s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.2-beta1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:50.336810649 259945.797762s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.2-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:50.832229212 259946.293180s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:51.326637573 259946.787587s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.2-pl1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:51.827400116 259947.288351s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.3/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:52.325317572 259947.786269s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.3-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:52.821399412 259948.282348s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.3/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:53.314413874 259948.775365s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.3-pl1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:53.809207701 259949.270157s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.4-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:54.303549499 259949.764500s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.4-pl1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:54.800271388 259950.261222s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.4-pl2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:55.294126157 259950.755076s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.4-pl3/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:55.784706883 259951.245656s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.4-pl4/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:56.277008848 259951.737960s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.6.4/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:56.766015312 259952.226966s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.7.0-beta1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:57.264588022 259952.725539s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.7.0-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:57.766323214 259953.227274s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.7.0-pl1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:58.263078227 259953.724028s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.7.0-pl2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:58.764880085 259954.225831s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.7.0/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:59.262078584 259954.723030s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.8.0-beta1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:34:59.760856449 259955.221805s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.8.0-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:00.258796402 259955.719746s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.8.0-rc2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:00.760012951 259956.220963s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.8.0/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:01.258615295 259956.719566s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.8.0.1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:01.755086975 259957.216037s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.8.0.2/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:02.252769481 259957.713721s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.8.0.3/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:02.751349325 259958.212301s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.8.0.4/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:03.255603877 259958.716554s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.8.1-rc1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:03.749143594 259959.210092s notice: Someone asked for the nonwhitelisted file "/phpMyAdmin-2.8.1/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:04.254993031 259959.715943s notice: Someone asked for the nonwhitelisted file "/sqlmanager/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:04.766370666 259960.227320s notice: Someone asked for the nonwhitelisted file "/mysqlmanager/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:05.272697861 259960.733646s notice: Someone asked for the nonwhitelisted file "/PMA2005/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:08.784537889 259964.245488s notice: Someone asked for the nonwhitelisted file "/pma2005/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:09.275622254 259964.736573s notice: Someone asked for the nonwhitelisted file "/phpmanager/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:09.768563170 259965.229514s notice: Someone asked for the nonwhitelisted file "/php-myadmin/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:10.265436512 259965.726387s notice: Someone asked for the nonwhitelisted file "/phpmy-admin/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:13.732447726 259969.193401s notice: Someone asked for the nonwhitelisted file "/webadmin/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:14.224124378 259969.685076s notice: Someone asked for the nonwhitelisted file "/sqlweb/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:14.736258881 259970.197211s notice: Someone asked for the nonwhitelisted file "/websql/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:15.231946864 259970.692898s notice: Someone asked for the nonwhitelisted file "/webdb/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:15.732836118 259971.193788s notice: Someone asked for the nonwhitelisted file "/mysqladmin/".  If this should be accessible, add it to the static web assets.
+2016-11-04T21:35:16.234807971 259971.695760s notice: Someone asked for the nonwhitelisted file "/mysql-admin/".  If this should be accessible, add it to the static web assets.
+2016-11-05T07:00:58.066051964 293913.527002s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-05T13:54:43.198365978 318738.659315s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-06T05:48:53.456232448 375988.917184s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-06T23:46:18.378288157 440633.839239s notice: Someone asked for the nonwhitelisted file "/cgi/common.cgi".  If this should be accessible, add it to the static web assets.
+2016-11-06T23:46:18.975038806 440634.435988s notice: Someone asked for the nonwhitelisted file "/stssys.htm".  If this should be accessible, add it to the static web assets.
+2016-11-06T23:46:20.811169438 440636.272119s notice: Someone asked for the nonwhitelisted file "/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js".  If this should be accessible, add it to the static web assets.
+2016-11-07T00:19:11.144119856 442606.605071s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-11-07T08:04:01.404368462 470496.865319s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-08T03:59:56.117918269 542251.578870s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-08T08:36:25.576559973 558841.037510s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-08T21:44:33.023509905 606128.484460s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-09T21:32:41.983450791 691817.444401s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-11-10T06:04:26.903917805 722522.364868s notice: Someone asked for the nonwhitelisted file "/phpmyadmin".  If this should be accessible, add it to the static web assets.
+2016-11-10T21:52:39.676143711 779415.137096s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-11T10:55:56.860785223 826412.321738s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-11T13:44:38.860926385 836534.321876s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-12T01:43:17.493186692 879652.954137s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-12T09:51:16.125635409 908931.586584s notice: Someone asked for the nonwhitelisted file "/cgi/common.cgi".  If this should be accessible, add it to the static web assets.
+2016-11-12T09:51:16.627078295 908932.088027s notice: Someone asked for the nonwhitelisted file "/stssys.htm".  If this should be accessible, add it to the static web assets.
+2016-11-12T09:51:18.261489152 908933.722440s notice: Someone asked for the nonwhitelisted file "/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js".  If this should be accessible, add it to the static web assets.
+2016-11-12T11:53:25.143017239 916260.603968s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-13T02:52:45.428572525 970220.889522s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-13T13:59:28.302791943 1010223.763742s notice: Someone asked for the nonwhitelisted file "/shell".  If this should be accessible, add it to the static web assets.
+2016-11-13T19:02:41.579144512 1028417.040095s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-14T05:01:19.185780732 1064334.646729s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-14T07:32:01.190906190 1073376.651855s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-14T08:06:19.386668130 1075434.847618s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-14T15:44:44.647105457 1102940.108056s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-14T16:04:13.619804643 1104109.080754s notice: Someone asked for the nonwhitelisted file "/phpmyadmin/scripts/setup.php".  If this should be accessible, add it to the static web assets.
+2016-11-14T16:04:40.466150886 1104135.927102s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-14T17:52:27.393871651 1110602.854822s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-14T20:34:14.658867635 1120310.119817s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-14T21:41:37.189795406 1124352.650746s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-15T06:19:28.742556781 0.323936s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-11-15T06:19:28.776594050 0.357958s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-11-15T06:19:28.935864132 0.517220s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-11-15T06:19:29.109766801 0.691131s info: Automatically using cache size of 100 MB
+2016-11-15T06:19:29.110282734 0.691636s warn: Cache size does not leave much memory for server and query overhead (available memory: 861 MB).
+2016-11-15T06:19:29.110302161 0.691655s warn: Cache size is very low and may impact performance.
+2016-11-15T06:19:29.187922922 0.769278s notice: Listening for intracluster connections on port 29015
+2016-11-15T06:19:29.464982754 1.046338s notice: Listening for client driver connections on port 28015
+2016-11-15T06:19:29.465806966 1.047163s notice: Listening for administrative HTTP connections on port 8080
+2016-11-15T06:19:29.517872106 1.099229s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-11-15T06:19:29.584715248 1.166068s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-11-15T06:19:29.636171643 1.217524s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-11-15T06:19:29.636181747 1.217533s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-11-15T06:19:30.702831680 2.284185s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 16.
+2016-11-15T06:19:30.857953412 2.439308s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 16. Latest log index is 42.
+2016-11-15T06:19:31.404301473 2.985654s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 16.
+2016-11-15T06:19:32.572102441 4.153457s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 16. Latest log index is 42.
+2016-11-15T13:41:33.373160725 26524.954517s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-11-17T08:15:34.072210626 179765.653567s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-17T20:35:07.292185371 224138.873539s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-18T08:09:59.469204420 265831.050559s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-18T09:49:03.148677186 271774.730032s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-18T13:57:36.830157437 286688.411510s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-19T00:37:39.225771153 325090.807126s notice: Someone asked for the nonwhitelisted file "/cgi/common.cgi".  If this should be accessible, add it to the static web assets.
+2016-11-19T00:37:39.792539777 325091.373895s notice: Someone asked for the nonwhitelisted file "/stssys.htm".  If this should be accessible, add it to the static web assets.
+2016-11-19T04:13:42.935810269 338054.517166s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-11-19T13:21:38.387993552 370929.969347s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-19T23:48:29.656875335 408541.238231s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-20T01:42:47.356076383 415398.937432s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-20T07:32:38.722135161 436390.303492s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-20T11:20:22.247126106 450053.828479s info: Table f1962f41-4eb0-43d1-8de7-d1b5a2c423d3: Starting a new Raft election for term 1.
+2016-11-20T11:20:22.247880631 450053.829234s info: Table f1962f41-4eb0-43d1-8de7-d1b5a2c423d3: Added replica on this server.
+2016-11-20T11:20:22.705264285 450054.286617s info: Table f1962f41-4eb0-43d1-8de7-d1b5a2c423d3: This server is Raft leader for term 1. Latest log index is 0.
+2016-11-20T13:15:34.341125360 456965.922481s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-20T22:29:55.393561801 490226.974917s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-20T23:40:34.176267777 494465.757624s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-11-21T02:14:08.411636786 503679.992993s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-21T14:57:58.391294718 549509.972650s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-21T20:25:21.608135585 569153.189490s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-21T20:56:22.805872465 571014.387228s notice: Someone asked for the nonwhitelisted file "/phpmyadmin/index.php".  If this should be accessible, add it to the static web assets.
+2016-11-21T20:56:23.818838323 571015.400195s notice: Someone asked for the nonwhitelisted file "/phpmyadmin/index.php".  If this should be accessible, add it to the static web assets.
+2016-11-21T20:56:28.806655468 571020.388012s notice: Someone asked for the nonwhitelisted file "/phpmyadmin/index.php".  If this should be accessible, add it to the static web assets.
+2016-11-22T04:45:56.470193279 599188.051548s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
