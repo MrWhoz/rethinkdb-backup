@@ -608,3 +608,56 @@
 2016-11-21T20:56:23.818838323 571015.400195s notice: Someone asked for the nonwhitelisted file "/phpmyadmin/index.php".  If this should be accessible, add it to the static web assets.
 2016-11-21T20:56:28.806655468 571020.388012s notice: Someone asked for the nonwhitelisted file "/phpmyadmin/index.php".  If this should be accessible, add it to the static web assets.
 2016-11-22T04:45:56.470193279 599188.051548s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-23T06:09:38.428352391 690610.009713s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-23T11:43:46.312306516 710657.893662s notice: Someone asked for the nonwhitelisted file "/shell".  If this should be accessible, add it to the static web assets.
+2016-11-24T08:21:49.547106711 784941.128461s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-11-24T10:10:53.602827079 791485.184184s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-25T02:35:35.523749667 850567.105104s notice: Someone asked for the nonwhitelisted file "/cgi/common.cgi".  If this should be accessible, add it to the static web assets.
+2016-11-25T02:35:36.272161897 850567.853516s notice: Someone asked for the nonwhitelisted file "/stssys.htm".  If this should be accessible, add it to the static web assets.
+2016-11-25T15:29:09.784318835 896981.365674s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-11-25T19:01:34.627276796 909726.208629s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-11-25T19:17:12.751253646 910664.332609s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-11-26T17:01:27.354872010 0.263929s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-11-26T17:01:27.387222219 0.296265s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-11-26T17:01:27.548471340 0.457505s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-11-26T17:01:27.867798353 0.776841s info: Automatically using cache size of 100 MB
+2016-11-26T17:01:27.868378297 0.777410s warn: Cache size does not leave much memory for server and query overhead (available memory: 829 MB).
+2016-11-26T17:01:27.868400693 0.777431s warn: Cache size is very low and may impact performance.
+2016-11-26T17:01:27.888060463 0.797094s notice: Listening for intracluster connections on port 29015
+2016-11-26T17:01:28.309447029 1.218481s notice: Listening for client driver connections on port 28015
+2016-11-26T17:01:28.310258274 1.219293s notice: Listening for administrative HTTP connections on port 8080
+2016-11-26T17:01:28.310365669 1.219396s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1
+2016-11-26T17:01:28.310381450 1.219412s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1
+2016-11-26T17:01:28.310396658 1.219427s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1
+2016-11-26T17:01:28.310410460 1.219441s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-11-26T17:01:28.310426554 1.219456s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-11-26T17:01:29.298639690 2.207672s info: Table f1962f41-4eb0-43d1-8de7-d1b5a2c423d3: Starting a new Raft election for term 2.
+2016-11-26T17:01:29.584479157 2.493511s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 17.
+2016-11-26T17:01:29.738146400 2.647180s info: Table f1962f41-4eb0-43d1-8de7-d1b5a2c423d3: This server is Raft leader for term 2. Latest log index is 3.
+2016-11-26T17:01:29.742541840 2.651575s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 17. Latest log index is 45.
+2016-11-26T17:01:29.975281701 2.884314s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 17.
+2016-11-26T17:01:30.033679034 2.942711s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 17. Latest log index is 45.
+2016-12-01T23:31:27.838519478 455400.747554s notice: Server got SIGTERM from pid 18650, uid 1000; shutting down...
+2016-12-01T23:31:27.848723839 455400.757756s notice: Shutting down client connections...
+2016-12-01T23:31:28.142029008 455401.051064s notice: All client connections closed.
+2016-12-01T23:31:28.142064893 455401.051094s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-12-01T23:31:28.441921062 455401.350957s notice: Storage engine shut down.
+2016-12-01T23:31:53.341015721 0.207146s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-12-01T23:31:53.371346825 0.237463s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-12-01T23:31:53.539282760 0.405390s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-12-01T23:31:53.790100653 0.656211s info: Automatically using cache size of 100 MB
+2016-12-01T23:31:53.791391114 0.657496s warn: Cache size does not leave much memory for server and query overhead (available memory: 598 MB).
+2016-12-01T23:31:53.791402520 0.657506s warn: Cache size is very low and may impact performance.
+2016-12-01T23:31:53.831841422 0.697947s notice: Listening for intracluster connections on port 29015
+2016-12-01T23:31:54.403478523 1.269585s notice: Listening for client driver connections on port 28015
+2016-12-01T23:31:54.404308882 1.270415s notice: Listening for administrative HTTP connections on port 8080
+2016-12-01T23:31:54.443381440 1.309488s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-12-01T23:31:54.482029104 1.348135s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-12-01T23:31:54.527631983 1.393737s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-12-01T23:31:54.527642504 1.393746s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-12-01T23:31:55.788574843 2.654680s info: Table f1962f41-4eb0-43d1-8de7-d1b5a2c423d3: Starting a new Raft election for term 3.
+2016-12-01T23:31:56.026694069 2.892799s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 18.
+2016-12-01T23:31:56.029634415 2.895740s info: Table f1962f41-4eb0-43d1-8de7-d1b5a2c423d3: This server is Raft leader for term 3. Latest log index is 6.
+2016-12-01T23:31:56.196290514 3.062398s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 18. Latest log index is 48.
+2016-12-01T23:31:56.220865926 3.086971s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 18.
+2016-12-01T23:31:56.411169475 3.277275s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 18. Latest log index is 48.
