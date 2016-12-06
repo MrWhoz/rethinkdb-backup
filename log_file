@@ -661,3 +661,36 @@
 2016-12-01T23:31:56.196290514 3.062398s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 18. Latest log index is 48.
 2016-12-01T23:31:56.220865926 3.086971s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 18.
 2016-12-01T23:31:56.411169475 3.277275s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 18. Latest log index is 48.
+2016-12-02T08:13:23.970403103 31290.836515s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-12-02T21:07:17.509801820 77724.375909s notice: Someone asked for the nonwhitelisted file "/script".  If this should be accessible, add it to the static web assets.
+2016-12-03T07:05:29.366480178 113616.232588s notice: Someone asked for the nonwhitelisted file "/web/login.asp".  If this should be accessible, add it to the static web assets.
+2016-12-03T07:05:29.889485446 113616.755594s notice: Someone asked for the nonwhitelisted file "/Main_Login.asp".  If this should be accessible, add it to the static web assets.
+2016-12-04T01:06:07.332492478 0.248985s notice: Running rethinkdb 2.3.5 (GCC 4.9.2)...
+2016-12-04T01:06:07.379867207 0.296355s notice: Running on Linux 4.4.21-v7+ armv7l
+2016-12-04T01:06:07.540701630 0.457183s notice: Loading data from directory /home/pi/rethinkdb_data
+2016-12-04T01:06:07.716458817 0.632946s info: Automatically using cache size of 100 MB
+2016-12-04T01:06:07.717417196 0.633895s warn: Cache size does not leave much memory for server and query overhead (available memory: 814 MB).
+2016-12-04T01:06:07.717712402 0.634189s warn: Cache size is very low and may impact performance.
+2016-12-04T01:06:07.766138582 0.682618s notice: Listening for intracluster connections on port 29015
+2016-12-04T01:06:08.122054279 1.038533s notice: Listening for client driver connections on port 28015
+2016-12-04T01:06:08.122841670 1.039319s notice: Listening for administrative HTTP connections on port 8080
+2016-12-04T01:06:08.162999417 1.079477s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-12-04T01:06:08.212482517 1.128959s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-12-04T01:06:08.250954181 1.167430s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, 192.168.100.16, 192.168.100.147
+2016-12-04T01:06:08.250964754 1.167439s notice: Server ready, "raspberrypi_olw" b534cf6f-f413-488f-b44a-82d135846850
+2016-12-04T01:06:09.230713227 2.147189s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: Starting a new Raft election for term 19.
+2016-12-04T01:06:09.569441333 2.485919s info: Table e59b3216-6a2e-4a8e-b720-639477bfa3d6: This server is Raft leader for term 19. Latest log index is 51.
+2016-12-04T01:06:09.773151558 2.689628s info: Table f1962f41-4eb0-43d1-8de7-d1b5a2c423d3: Starting a new Raft election for term 4.
+2016-12-04T01:06:09.820914253 2.737391s info: Table f1962f41-4eb0-43d1-8de7-d1b5a2c423d3: This server is Raft leader for term 4. Latest log index is 9.
+2016-12-04T01:06:09.843913419 2.760390s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: Starting a new Raft election for term 19.
+2016-12-04T01:06:09.917063181 2.833540s info: Table 7364c57c-8cd5-4608-a3ab-58f8187b99ad: This server is Raft leader for term 19. Latest log index is 51.
+2016-12-04T14:01:48.943436868 46541.859914s notice: Someone asked for the nonwhitelisted file "/HNAP1/".  If this should be accessible, add it to the static web assets.
+2016-12-04T18:40:49.617516709 63282.533994s notice: Someone asked for the nonwhitelisted file "/cgi/common.cgi".  If this should be accessible, add it to the static web assets.
+2016-12-04T18:40:50.384335273 63283.300815s notice: Someone asked for the nonwhitelisted file "/stssys.htm".  If this should be accessible, add it to the static web assets.
+2016-12-04T18:40:52.734767095 63285.651244s notice: Someone asked for the nonwhitelisted file "/language/Swedish${IFS}&&echo${IFS}610cker>qt&&tar${IFS}/string.js".  If this should be accessible, add it to the static web assets.
+2016-12-05T01:57:55.722134841 89508.638614s notice: Someone asked for the nonwhitelisted file "//jmx-console/HtmlAdaptor".  If this should be accessible, add it to the static web assets.
+2016-12-05T17:49:17.120282069 146590.036761s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-12-05T19:54:33.355140381 154106.271619s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-12-05T22:38:26.421351303 163939.337830s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-12-05T23:49:23.590091979 168196.506570s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
+2016-12-06T09:04:44.983563179 201517.900041s notice: Someone asked for the nonwhitelisted file "/manager/html".  If this should be accessible, add it to the static web assets.
